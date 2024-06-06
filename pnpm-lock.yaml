@@ -10,12 +10,18 @@ devDependencies:
   '@swc/core':
     specifier: ^1.5.25
     version: 1.5.25
+  '@types/node':
+    specifier: ^20.14.2
+    version: 20.14.2
   chokidar:
     specifier: ^3.6.0
     version: 3.6.0
   eslint:
     specifier: ^9.4.0
     version: 9.4.0
+  typescript:
+    specifier: ^5.4.5
+    version: 5.4.5
 
 packages:
 
