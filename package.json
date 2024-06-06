@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "prettier-plugin-brace-style": "^0.6.2"
+  },
   "devDependencies": {
     "@hyo-choi/eslint-config": "hyo-choi/eslint-config#9b9644aad0f103ab0f1b9d758e46d68e11d79a08",
     "@hyo-choi/prettier-config": "link:.",
