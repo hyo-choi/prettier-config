@@ -2,7 +2,7 @@
   "name": "prettier-config",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/src/index.js",
   "scripts": {
     "dev": "pnpm build --watch",
     "build": "pnpm swc src -d dist --delete-dir-on-start"
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@hyo-choi/eslint-config": "hyo-choi/eslint-config#9b9644aad0f103ab0f1b9d758e46d68e11d79a08",
+    "@hyo-choi/prettier-config": "link:.",
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.5.25",
     "@types/node": "^20.14.2",

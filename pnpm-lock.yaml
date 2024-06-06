@@ -4,6 +4,9 @@ devDependencies:
   '@hyo-choi/eslint-config':
     specifier: hyo-choi/eslint-config#9b9644aad0f103ab0f1b9d758e46d68e11d79a08
     version: github.com/hyo-choi/eslint-config/9b9644aad0f103ab0f1b9d758e46d68e11d79a08(eslint@9.4.0)(prettier@3.3.1)(typescript@5.4.5)
+  '@hyo-choi/prettier-config':
+    specifier: link:.
+    version: 'link:'
   '@swc/cli':
     specifier: ^0.3.12
     version: 0.3.12(@swc/core@1.5.25)(chokidar@3.6.0)
